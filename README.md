@@ -1,83 +1,74 @@
 # tweet-hook
 
-Grok Build **Skill**：研究 X/Twitter 高互动帖的开头钩子，并批量生成可用的推文开头。
+**Multi-agent skill** for researching viral social openers and generating high-stop-rate tweet/post openings.
 
-适用于：涨粉文案、话题讨论、产品宣发、AI/自媒体/Web3 内容号。
-
----
-
-## 能干什么
-
-| 能力 | 说明 |
-|------|------|
-| **抓取研究** | 用 X 搜索读公开高赞帖，按账号拆「开头」 |
-| **五类钩子** | 制造矛盾 / 焦虑 / 话题 / 热度 / 抛钩子 |
-| **批量生成** | 按主题输出可直接粘贴的开头 + 风险标注 |
-| **风格复刻** | 可按某博主风格写（如「像小互 / 像 dontbesilent」） |
-| **List 沉淀库** | 内置一份公开 List 的高赞开头拆解与骨架 |
-
-### 内置资料
-
-- `SKILL.md` — 主流程（Grok 读取）
-- `references/hook-patterns.md` — 通用句式库
-- `references/list-2067293665865998356/` — 列表研究样本与 swipe
-
-### 做不到的
-
-- 无法静默导出他人完整关注列表 / List 全员名单（需你提供 handle 或公开 list 可检索帖）
-- 不编造赞转数据；私密号读不到
+Works with **Grok Build, Codex, Claude Code, Cursor, Copilot Chat**, and any agent that can read a `SKILL.md` + markdown references.
 
 ---
 
-## 安装到 Grok Build
+## What it does
 
-### 方式 A：用户级 Skill（全项目可用）
+| Feature | Description |
+|---------|-------------|
+| **Research** | Break down openings from high-engagement posts (when tools allow) |
+| **5 hook types** | Contradiction · Anxiety · Topic · Heat · Open loop |
+| **Generate** | Paste-ready openers with type / risk / use-case tags |
+| **Style transfer** | “Write like @handle” using swipe notes |
+| **Offline OK** | L1 mode: local patterns only, no fake “I scraped X” |
+
+### Capability levels
+
+| Level | Meaning |
+|-------|---------|
+| **L3** | Native X/Twitter search tools |
+| **L2** | Web search / fetch URLs |
+| **L1** | Local `references/` + user-pasted text only |
+
+The skill **must degrade gracefully**. Missing Grok-only tools is fine.
+
+---
+
+## Repo layout
+
+```
+tweet-hook/
+  SKILL.md                 # main instructions (all agents)
+  INSTALL.md               # install paths per product
+  README.md
+  references/
+    hook-patterns.md       # universal formulas
+    list-.../
+      swipe-openers.md     # real-world opener swipe
+      README.md
+      official-pr.md
+```
+
+---
+
+## Quick start
 
 ```bash
-mkdir -p ~/.grok/skills/tweet-hook
-cp -R ./* ~/.grok/skills/tweet-hook/
+git clone <repo-url> tweet-hook
+# see INSTALL.md for Grok / Claude / Codex / Cursor paths
 ```
 
-### 方式 B：项目级 Skill
-
-```bash
-mkdir -p .grok/skills/tweet-hook
-cp -R ./* .grok/skills/tweet-hook/
-```
-
-重启或等待 Grok 自动 reload skills。
-
----
-
-## 用法
-
-在 Grok Build 中：
+Prompt example:
 
 ```text
-/tweet-hook
-```
-
-或自然语言：
-
-```text
-按列表博主风格，主题：AI 工作流变现，写 12 条推文开头
-```
-
-```text
-分析 @xxx @yyy 的高赞开头规律
+Follow tweet-hook/SKILL.md (L1 if no X tools).
+Topic: AI 自媒体接单。Write 12 Chinese openers.
 ```
 
 ---
 
-## 输出会包含
+## Limits
 
-- 开头原文拆解（类型 / 机制 / 骨架）
-- 可复用句式
-- 生成开头：`类型 | 风险 | 适合场景`
-- 安全版 vs 进攻版对照
+- Cannot export full private following lists  
+- Do not invent like/view counts  
+- Sample list swipe is a **subset**, not every list member  
 
 ---
 
 ## License
 
-MIT（骨架与方法论可自由使用；引用他人推文原文时请遵守平台规则与合理使用。）
+MIT. Reuse skeletons freely; respect platform rules when quoting others’ full posts.

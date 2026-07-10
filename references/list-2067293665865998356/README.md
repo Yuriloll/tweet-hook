@@ -2,8 +2,9 @@
 
 - **List URL:** https://x.com/i/lists/2067293665865998356
 - **Research date:** 2026-07-10
-- **Method:** `list:2067293665865998356` 抽样成员 + 各账号 `from:handle min_faves:N` 抓高赞帖
-- **目标:** 每人约 10 条历史高赞开头 → 总结风格 → 供 `/tweet-hook` 生成用
+- **Method:** 列表抽样成员 + 各账号高赞帖（L3 检索时采集；任意 AI 可只读本库）
+- **目标:** 每人约 8–10 条高赞开头 → 总结风格 → 供 tweet-hook **离线/在线** 生成用
+- **Portable:** 本目录纯 Markdown，Codex / Claude / Cursor / Grok 均可直接读
 
 ## Limits（务必读）
 
