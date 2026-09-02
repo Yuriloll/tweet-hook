@@ -8,7 +8,7 @@ This skill is **tool-agnostic**. Core value lives in:
 ## Universal install
 
 ```bash
-git clone <your-repo-url> tweet-hook
+git clone https://github.com/Yuriloll/tweet-hook.git
 # then copy into the agent path you use (examples below)
 ```
 
@@ -96,11 +96,19 @@ Ask the agent:
 
 ```text
 Read tweet-hook SKILL.md and say your capability level L1/L2/L3,
-then write 5 openers for: "AI 工作流接单"
+complete the Hook Brief, then write 5 openers for: "AI 工作流接单"
 ```
 
 Expected:
 
-- States L1/L2/L3  
+- States L1/L2/L3 and separately states whether this run used live research, web research, user material, or the offline library
+- Identifies reader, current pain, counterintuitive point, number/result, strongest curiosity line, and payoff sentence
+- Marks unsupported fields as inferred or missing rather than filling them
 - Uses hook types  
 - Outputs paste-ready openers without inventing fake metrics  
+
+Validate the installed package from its root directory:
+
+```bash
+python3 scripts/validate_skill.py .
+```
