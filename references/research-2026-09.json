@@ -1,0 +1,3673 @@
+{
+  "version": 1,
+  "created_at": "2026-09-10T17:33:40.083389+00:00",
+  "requested_window": {
+    "since": "2026-03-11",
+    "through": "2026-09-11"
+  },
+  "date_basis": "UTC dates from tweet timestamp; search bounds may differ; classified by observed timestamp.",
+  "collection": {
+    "browser_unique": 128,
+    "api_returned": 50,
+    "unique": 172,
+    "text_available": 165,
+    "curated": 48,
+    "by_handle": {
+      "gkxspace": 61,
+      "Astronaut_1216": 111
+    },
+    "by_month": {
+      "Astronaut_1216": {
+        "2026-03": 9,
+        "2026-04": 10,
+        "2026-05": 12,
+        "2026-06": 11,
+        "2026-07": 52,
+        "2026-08": 9,
+        "2026-09": 8
+      },
+      "gkxspace": {
+        "2026-03": 16,
+        "2026-04": 9,
+        "2026-05": 6,
+        "2026-06": 9,
+        "2026-07": 7,
+        "2026-08": 7,
+        "2026-09": 7
+      }
+    }
+  },
+  "limitations": [
+    "Month-stratified Top search sample, not a census or random sample.",
+    "6551 returned 50 Astronaut tweets, then insufficient quota; no gkxspace tweet results from API.",
+    "Browser text may be truncated; only visible own opening and necessary context analyzed.",
+    "Public quotes and interpretation do not verify author product, earnings or technical claims.",
+    "Metrics are an observation, not a causal estimate of hook effectiveness."
+  ],
+  "index": [
+    {
+      "id": "2033072088773234750",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-15",
+      "url": "https://x.com/Astronaut_1216/status/2033072088773234750",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 129,
+        "views": 44011
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2033201040800288794",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-15",
+      "url": "https://x.com/Astronaut_1216/status/2033201040800288794",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 175,
+        "views": 12272
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2033448254906491345",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-16",
+      "url": "https://x.com/Astronaut_1216/status/2033448254906491345",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 64,
+        "views": 8700
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2034141325679874548",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-18",
+      "url": "https://x.com/Astronaut_1216/status/2034141325679874548",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 11,
+        "views": 3100
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2035269015338209689",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-21",
+      "url": "https://x.com/Astronaut_1216/status/2035269015338209689",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 47,
+        "views": 6713
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2035688050966044784",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-22",
+      "url": "https://x.com/Astronaut_1216/status/2035688050966044784",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 9,
+        "views": 2614
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2036645846813737233",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-25",
+      "url": "https://x.com/Astronaut_1216/status/2036645846813737233",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 28,
+        "views": 3589
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2036815471937310803",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-25",
+      "url": "https://x.com/Astronaut_1216/status/2036815471937310803",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 10,
+        "views": 3615
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2036821458844783062",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-25",
+      "url": "https://x.com/Astronaut_1216/status/2036821458844783062",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 6,
+        "views": 2512
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2039278154724909519",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-01",
+      "url": "https://x.com/Astronaut_1216/status/2039278154724909519",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 15,
+        "views": 2989
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2040113933583896757",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-03",
+      "url": "https://x.com/Astronaut_1216/status/2040113933583896757",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 80,
+        "views": 67996
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2040703248235889114",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-05",
+      "url": "https://x.com/Astronaut_1216/status/2040703248235889114",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 9,
+        "views": 4279
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2041052628692484276",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-06",
+      "url": "https://x.com/Astronaut_1216/status/2041052628692484276",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 18,
+        "views": 1526
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2044636715399192955",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-16",
+      "url": "https://x.com/Astronaut_1216/status/2044636715399192955",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 57,
+        "views": 12231
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2046600657491124335",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-21",
+      "url": "https://x.com/Astronaut_1216/status/2046600657491124335",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 69,
+        "views": 14932
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2047229831620813269",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-23",
+      "url": "https://x.com/Astronaut_1216/status/2047229831620813269",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 280,
+        "views": 1722764
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2047975793847112049",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-25",
+      "url": "https://x.com/Astronaut_1216/status/2047975793847112049",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 3,
+        "views": 1574
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2049397760739209715",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-29",
+      "url": "https://x.com/Astronaut_1216/status/2049397760739209715",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 7,
+        "views": 1145
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2049686171563774170",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-30",
+      "url": "https://x.com/Astronaut_1216/status/2049686171563774170",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 1,
+        "views": 1388
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2050373931635200237",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-02",
+      "url": "https://x.com/Astronaut_1216/status/2050373931635200237",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 1,
+        "views": 4006
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2050582537496396150",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-02",
+      "url": "https://x.com/Astronaut_1216/status/2050582537496396150",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 1,
+        "views": 1254
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2051138986488336530",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-04",
+      "url": "https://x.com/Astronaut_1216/status/2051138986488336530",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 3,
+        "views": 1165
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2051662740960231546",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-05",
+      "url": "https://x.com/Astronaut_1216/status/2051662740960231546",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 1,
+        "views": 924
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2052215732616786102",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-07",
+      "url": "https://x.com/Astronaut_1216/status/2052215732616786102",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 4,
+        "views": 1169
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2052224921854435776",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-07",
+      "url": "https://x.com/Astronaut_1216/status/2052224921854435776",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 1,
+        "views": 802
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2052938079808508031",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-09",
+      "url": "https://x.com/Astronaut_1216/status/2052938079808508031",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 13,
+        "views": 11510
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2054910493148483738",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-14",
+      "url": "https://x.com/Astronaut_1216/status/2054910493148483738",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 144,
+        "views": 11442
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2054927370998661471",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-14",
+      "url": "https://x.com/Astronaut_1216/status/2054927370998661471",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 26,
+        "views": 74796
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2056650871081955677",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-19",
+      "url": "https://x.com/Astronaut_1216/status/2056650871081955677",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 10,
+        "views": 7972
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2059913233771749887",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-28",
+      "url": "https://x.com/Astronaut_1216/status/2059913233771749887",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 4,
+        "views": 2991
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2060193496795914572",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-29",
+      "url": "https://x.com/Astronaut_1216/status/2060193496795914572",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 29,
+        "views": 5719
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2062869810191520103",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-05",
+      "url": "https://x.com/Astronaut_1216/status/2062869810191520103",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 26,
+        "views": 24093
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2063120048240095547",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-06",
+      "url": "https://x.com/Astronaut_1216/status/2063120048240095547",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 7,
+        "views": 4985
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2063490412182982692",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-07",
+      "url": "https://x.com/Astronaut_1216/status/2063490412182982692",
+      "text_available": false,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 12,
+        "views": 4108
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2066390030164115660",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-15",
+      "url": "https://x.com/Astronaut_1216/status/2066390030164115660",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 5,
+        "views": 1444
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2066706585636725217",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-16",
+      "url": "https://x.com/Astronaut_1216/status/2066706585636725217",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 12,
+        "views": 15707
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2066750025300943169",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-16",
+      "url": "https://x.com/Astronaut_1216/status/2066750025300943169",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 30,
+        "views": 11009
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2067158649278013491",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-17",
+      "url": "https://x.com/Astronaut_1216/status/2067158649278013491",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 63,
+        "views": 10475
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2067174163396116485",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-17",
+      "url": "https://x.com/Astronaut_1216/status/2067174163396116485",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 8,
+        "views": 2153
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2067853560423858436",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-19",
+      "url": "https://x.com/Astronaut_1216/status/2067853560423858436",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 11,
+        "views": 7566
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2069114201981993092",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-22",
+      "url": "https://x.com/Astronaut_1216/status/2069114201981993092",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 26,
+        "views": 3046
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2069684081248633068",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-24",
+      "url": "https://x.com/Astronaut_1216/status/2069684081248633068",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 7,
+        "views": 856
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2072872331102368010",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-03",
+      "url": "https://x.com/Astronaut_1216/status/2072872331102368010",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 45,
+        "views": 3993
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2073423487415275573",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-04",
+      "url": "https://x.com/Astronaut_1216/status/2073423487415275573",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2073783726727630963",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-05",
+      "url": "https://x.com/Astronaut_1216/status/2073783726727630963",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2073784668676149593",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-05",
+      "url": "https://x.com/Astronaut_1216/status/2073784668676149593",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2073807371294433534",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-05",
+      "url": "https://x.com/Astronaut_1216/status/2073807371294433534",
+      "text_available": true,
+      "sources": [
+        "X browser Top search",
+        "6551 API"
+      ],
+      "metrics": {
+        "likes": 53,
+        "views": 20170
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2074356465893056947",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-07",
+      "url": "https://x.com/Astronaut_1216/status/2074356465893056947",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2074457897195430032",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-07",
+      "url": "https://x.com/Astronaut_1216/status/2074457897195430032",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2074714886035144992",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-08",
+      "url": "https://x.com/Astronaut_1216/status/2074714886035144992",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2074731036899152078",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-08",
+      "url": "https://x.com/Astronaut_1216/status/2074731036899152078",
+      "text_available": true,
+      "sources": [
+        "X browser Top search",
+        "6551 API"
+      ],
+      "metrics": {
+        "likes": 14,
+        "views": 6250
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2074732626578162127",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-08",
+      "url": "https://x.com/Astronaut_1216/status/2074732626578162127",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2074764922873893310",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-08",
+      "url": "https://x.com/Astronaut_1216/status/2074764922873893310",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2074773244264042633",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-08",
+      "url": "https://x.com/Astronaut_1216/status/2074773244264042633",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2075060497666224379",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-09",
+      "url": "https://x.com/Astronaut_1216/status/2075060497666224379",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2075240916768420056",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-09",
+      "url": "https://x.com/Astronaut_1216/status/2075240916768420056",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2075591996744294864",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-10",
+      "url": "https://x.com/Astronaut_1216/status/2075591996744294864",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2075613120874115484",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-10",
+      "url": "https://x.com/Astronaut_1216/status/2075613120874115484",
+      "text_available": true,
+      "sources": [
+        "X browser Top search",
+        "6551 API"
+      ],
+      "metrics": {
+        "likes": 24,
+        "views": 2620
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2075796745972305955",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-11",
+      "url": "https://x.com/Astronaut_1216/status/2075796745972305955",
+      "text_available": false,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2075824536818249847",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-11",
+      "url": "https://x.com/Astronaut_1216/status/2075824536818249847",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2075862363098558799",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-11",
+      "url": "https://x.com/Astronaut_1216/status/2075862363098558799",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2076133994576425110",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-12",
+      "url": "https://x.com/Astronaut_1216/status/2076133994576425110",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2076538549692666004",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-13",
+      "url": "https://x.com/Astronaut_1216/status/2076538549692666004",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2076541431359889628",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-13",
+      "url": "https://x.com/Astronaut_1216/status/2076541431359889628",
+      "text_available": false,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2076560730074001438",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-13",
+      "url": "https://x.com/Astronaut_1216/status/2076560730074001438",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2076856126918783180",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-14",
+      "url": "https://x.com/Astronaut_1216/status/2076856126918783180",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2076868980707352704",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-14",
+      "url": "https://x.com/Astronaut_1216/status/2076868980707352704",
+      "text_available": true,
+      "sources": [
+        "X browser Top search",
+        "6551 API"
+      ],
+      "metrics": {
+        "likes": 5,
+        "views": 7574
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2076872319213961699",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-14",
+      "url": "https://x.com/Astronaut_1216/status/2076872319213961699",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2077212930165059882",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-15",
+      "url": "https://x.com/Astronaut_1216/status/2077212930165059882",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2077267170376225253",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-15",
+      "url": "https://x.com/Astronaut_1216/status/2077267170376225253",
+      "text_available": true,
+      "sources": [
+        "X browser Top search",
+        "6551 API"
+      ],
+      "metrics": {
+        "likes": 2,
+        "views": 1340
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2077613503372841437",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-16",
+      "url": "https://x.com/Astronaut_1216/status/2077613503372841437",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2077618616569102772",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-16",
+      "url": "https://x.com/Astronaut_1216/status/2077618616569102772",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2077669630030610556",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-16",
+      "url": "https://x.com/Astronaut_1216/status/2077669630030610556",
+      "text_available": true,
+      "sources": [
+        "X browser Top search",
+        "6551 API"
+      ],
+      "metrics": {
+        "likes": 10,
+        "views": 2797
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2077750706304405784",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-16",
+      "url": "https://x.com/Astronaut_1216/status/2077750706304405784",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2078009462174965802",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-17",
+      "url": "https://x.com/Astronaut_1216/status/2078009462174965802",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2078015859587461378",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-17",
+      "url": "https://x.com/Astronaut_1216/status/2078015859587461378",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2078074737872269460",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-17",
+      "url": "https://x.com/Astronaut_1216/status/2078074737872269460",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2078683244695027851",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-19",
+      "url": "https://x.com/Astronaut_1216/status/2078683244695027851",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2079043669324378416",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-20",
+      "url": "https://x.com/Astronaut_1216/status/2079043669324378416",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2079139637239701956",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-20",
+      "url": "https://x.com/Astronaut_1216/status/2079139637239701956",
+      "text_available": false,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2079189174427570659",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-20",
+      "url": "https://x.com/Astronaut_1216/status/2079189174427570659",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2079217830092738899",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-20",
+      "url": "https://x.com/Astronaut_1216/status/2079217830092738899",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2079566298166530246",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-21",
+      "url": "https://x.com/Astronaut_1216/status/2079566298166530246",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2079775441343422809",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-22",
+      "url": "https://x.com/Astronaut_1216/status/2079775441343422809",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2079874846540931150",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-22",
+      "url": "https://x.com/Astronaut_1216/status/2079874846540931150",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2080167153668383179",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-23",
+      "url": "https://x.com/Astronaut_1216/status/2080167153668383179",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2080281449240945098",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-23",
+      "url": "https://x.com/Astronaut_1216/status/2080281449240945098",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2080290969040142459",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-23",
+      "url": "https://x.com/Astronaut_1216/status/2080290969040142459",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2080495183905386582",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-24",
+      "url": "https://x.com/Astronaut_1216/status/2080495183905386582",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2080945903972868108",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-25",
+      "url": "https://x.com/Astronaut_1216/status/2080945903972868108",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2080948698427658536",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-25",
+      "url": "https://x.com/Astronaut_1216/status/2080948698427658536",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2081311368074920022",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-26",
+      "url": "https://x.com/Astronaut_1216/status/2081311368074920022",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2081333047387902174",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-26",
+      "url": "https://x.com/Astronaut_1216/status/2081333047387902174",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00"
+    },
+    {
+      "id": "2082875166707564706",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-30",
+      "url": "https://x.com/Astronaut_1216/status/2082875166707564706",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 50,
+        "views": 16732
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2083543931589980566",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-01",
+      "url": "https://x.com/Astronaut_1216/status/2083543931589980566",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 22,
+        "views": 3714
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2085174748909363310",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-06",
+      "url": "https://x.com/Astronaut_1216/status/2085174748909363310",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 95,
+        "views": 22263
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2085741126183780599",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-07",
+      "url": "https://x.com/Astronaut_1216/status/2085741126183780599",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 48,
+        "views": 13699
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2086297919611605238",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-09",
+      "url": "https://x.com/Astronaut_1216/status/2086297919611605238",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 40,
+        "views": 4761
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2086337933259551014",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-09",
+      "url": "https://x.com/Astronaut_1216/status/2086337933259551014",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 45,
+        "views": 18533
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2087530619857465438",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-12",
+      "url": "https://x.com/Astronaut_1216/status/2087530619857465438",
+      "text_available": false,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 81,
+        "views": 20825
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2089576598983033293",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-18",
+      "url": "https://x.com/Astronaut_1216/status/2089576598983033293",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 84,
+        "views": 10084
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2090966733494612237",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-22",
+      "url": "https://x.com/Astronaut_1216/status/2090966733494612237",
+      "text_available": false,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 146,
+        "views": 73630
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2092889207039807836",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-27",
+      "url": "https://x.com/Astronaut_1216/status/2092889207039807836",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 213,
+        "views": 23460
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2095392075730780566",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-03",
+      "url": "https://x.com/Astronaut_1216/status/2095392075730780566",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 232,
+        "views": 20568
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2096077463784956236",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-05",
+      "url": "https://x.com/Astronaut_1216/status/2096077463784956236",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 34,
+        "views": 18445
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2096117332972306468",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-05",
+      "url": "https://x.com/Astronaut_1216/status/2096117332972306468",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 79,
+        "views": 12971
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2096162536236404756",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-05",
+      "url": "https://x.com/Astronaut_1216/status/2096162536236404756",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 89,
+        "views": 49203
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2096880568671908333",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-07",
+      "url": "https://x.com/Astronaut_1216/status/2096880568671908333",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 12,
+        "views": 2315
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2097166536012071055",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-08",
+      "url": "https://x.com/Astronaut_1216/status/2097166536012071055",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 177,
+        "views": 47838
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2097172571968143717",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-08",
+      "url": "https://x.com/Astronaut_1216/status/2097172571968143717",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 28,
+        "views": 9487
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2097625565025181977",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-09",
+      "url": "https://x.com/Astronaut_1216/status/2097625565025181977",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 173,
+        "views": 22823
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2031980488441651620",
+      "handle": "gkxspace",
+      "date": "2026-03-12",
+      "url": "https://x.com/gkxspace/status/2031980488441651620",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 20,
+        "views": 22079
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2032463177431109718",
+      "handle": "gkxspace",
+      "date": "2026-03-13",
+      "url": "https://x.com/gkxspace/status/2032463177431109718",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 48,
+        "views": 16608
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2033079897762246951",
+      "handle": "gkxspace",
+      "date": "2026-03-15",
+      "url": "https://x.com/gkxspace/status/2033079897762246951",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 370,
+        "views": 136128
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2034243272923553851",
+      "handle": "gkxspace",
+      "date": "2026-03-18",
+      "url": "https://x.com/gkxspace/status/2034243272923553851",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 15,
+        "views": 7556
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2034246279006482699",
+      "handle": "gkxspace",
+      "date": "2026-03-18",
+      "url": "https://x.com/gkxspace/status/2034246279006482699",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 76,
+        "views": 18983
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2035220504521376199",
+      "handle": "gkxspace",
+      "date": "2026-03-21",
+      "url": "https://x.com/gkxspace/status/2035220504521376199",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 72,
+        "views": 22890
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2036105298532765951",
+      "handle": "gkxspace",
+      "date": "2026-03-23",
+      "url": "https://x.com/gkxspace/status/2036105298532765951",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 291,
+        "views": 52778
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2037126994207392050",
+      "handle": "gkxspace",
+      "date": "2026-03-26",
+      "url": "https://x.com/gkxspace/status/2037126994207392050",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 174,
+        "views": 20197
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2037159237441278322",
+      "handle": "gkxspace",
+      "date": "2026-03-26",
+      "url": "https://x.com/gkxspace/status/2037159237441278322",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 284,
+        "views": 73558
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2037871345837465980",
+      "handle": "gkxspace",
+      "date": "2026-03-28",
+      "url": "https://x.com/gkxspace/status/2037871345837465980",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 57,
+        "views": 26990
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2038276251870187639",
+      "handle": "gkxspace",
+      "date": "2026-03-29",
+      "url": "https://x.com/gkxspace/status/2038276251870187639",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 198,
+        "views": 79340
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2038485109775470910",
+      "handle": "gkxspace",
+      "date": "2026-03-30",
+      "url": "https://x.com/gkxspace/status/2038485109775470910",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 62,
+        "views": 27371
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2038529849510281559",
+      "handle": "gkxspace",
+      "date": "2026-03-30",
+      "url": "https://x.com/gkxspace/status/2038529849510281559",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 9,
+        "views": 6506
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2038791588000739394",
+      "handle": "gkxspace",
+      "date": "2026-03-31",
+      "url": "https://x.com/gkxspace/status/2038791588000739394",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 48,
+        "views": 14140
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2038913045846474955",
+      "handle": "gkxspace",
+      "date": "2026-03-31",
+      "url": "https://x.com/gkxspace/status/2038913045846474955",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 58,
+        "views": 31675
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2038985172016611345",
+      "handle": "gkxspace",
+      "date": "2026-03-31",
+      "url": "https://x.com/gkxspace/status/2038985172016611345",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 8,
+        "views": 6309
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2039894982434111716",
+      "handle": "gkxspace",
+      "date": "2026-04-03",
+      "url": "https://x.com/gkxspace/status/2039894982434111716",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 62,
+        "views": 10189
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2040280788202135646",
+      "handle": "gkxspace",
+      "date": "2026-04-04",
+      "url": "https://x.com/gkxspace/status/2040280788202135646",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 10,
+        "views": 18955
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2040780970966601822",
+      "handle": "gkxspace",
+      "date": "2026-04-05",
+      "url": "https://x.com/gkxspace/status/2040780970966601822",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 85,
+        "views": 33655
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2040784930204946862",
+      "handle": "gkxspace",
+      "date": "2026-04-05",
+      "url": "https://x.com/gkxspace/status/2040784930204946862",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 238,
+        "views": 260080
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2041713415945617426",
+      "handle": "gkxspace",
+      "date": "2026-04-08",
+      "url": "https://x.com/gkxspace/status/2041713415945617426",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 20,
+        "views": 7594
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2042211862557688318",
+      "handle": "gkxspace",
+      "date": "2026-04-09",
+      "url": "https://x.com/gkxspace/status/2042211862557688318",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 358,
+        "views": 64804
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2042611400334262387",
+      "handle": "gkxspace",
+      "date": "2026-04-10",
+      "url": "https://x.com/gkxspace/status/2042611400334262387",
+      "text_available": false,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 32,
+        "views": 31526
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2047494444857913663",
+      "handle": "gkxspace",
+      "date": "2026-04-24",
+      "url": "https://x.com/gkxspace/status/2047494444857913663",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 1374,
+        "views": 276084
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2049679016764833893",
+      "handle": "gkxspace",
+      "date": "2026-04-30",
+      "url": "https://x.com/gkxspace/status/2049679016764833893",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 183,
+        "views": 31771
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2051649323260076248",
+      "handle": "gkxspace",
+      "date": "2026-05-05",
+      "url": "https://x.com/gkxspace/status/2051649323260076248",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 2738,
+        "views": 512345
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2054079878748688573",
+      "handle": "gkxspace",
+      "date": "2026-05-12",
+      "url": "https://x.com/gkxspace/status/2054079878748688573",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 847,
+        "views": 216512
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2055993627629781080",
+      "handle": "gkxspace",
+      "date": "2026-05-17",
+      "url": "https://x.com/gkxspace/status/2055993627629781080",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 728,
+        "views": 164138
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2058550790734631369",
+      "handle": "gkxspace",
+      "date": "2026-05-24",
+      "url": "https://x.com/gkxspace/status/2058550790734631369",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 78,
+        "views": 13951
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2058556052442931694",
+      "handle": "gkxspace",
+      "date": "2026-05-24",
+      "url": "https://x.com/gkxspace/status/2058556052442931694",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 61,
+        "views": 9420
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2060684686477733905",
+      "handle": "gkxspace",
+      "date": "2026-05-30",
+      "url": "https://x.com/gkxspace/status/2060684686477733905",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 34,
+        "views": 24716
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2061413377461596526",
+      "handle": "gkxspace",
+      "date": "2026-06-01",
+      "url": "https://x.com/gkxspace/status/2061413377461596526",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 419,
+        "views": 49720
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2061685817454551210",
+      "handle": "gkxspace",
+      "date": "2026-06-02",
+      "url": "https://x.com/gkxspace/status/2061685817454551210",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 43,
+        "views": 11126
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2062399007947681825",
+      "handle": "gkxspace",
+      "date": "2026-06-04",
+      "url": "https://x.com/gkxspace/status/2062399007947681825",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 178,
+        "views": 63998
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2063978203639652377",
+      "handle": "gkxspace",
+      "date": "2026-06-08",
+      "url": "https://x.com/gkxspace/status/2063978203639652377",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 820,
+        "views": 269904
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2067141681439297615",
+      "handle": "gkxspace",
+      "date": "2026-06-17",
+      "url": "https://x.com/gkxspace/status/2067141681439297615",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 79,
+        "views": 120436
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2068328803508629893",
+      "handle": "gkxspace",
+      "date": "2026-06-20",
+      "url": "https://x.com/gkxspace/status/2068328803508629893",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 761,
+        "views": 96340
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2068546908360999331",
+      "handle": "gkxspace",
+      "date": "2026-06-21",
+      "url": "https://x.com/gkxspace/status/2068546908360999331",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 139,
+        "views": 28616
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2069264066992918732",
+      "handle": "gkxspace",
+      "date": "2026-06-23",
+      "url": "https://x.com/gkxspace/status/2069264066992918732",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 33,
+        "views": 28693
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2071132787621478775",
+      "handle": "gkxspace",
+      "date": "2026-06-28",
+      "url": "https://x.com/gkxspace/status/2071132787621478775",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 46,
+        "views": 18529
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2072673599429779481",
+      "handle": "gkxspace",
+      "date": "2026-07-02",
+      "url": "https://x.com/gkxspace/status/2072673599429779481",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 253,
+        "views": 113824
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2073009004452749610",
+      "handle": "gkxspace",
+      "date": "2026-07-03",
+      "url": "https://x.com/gkxspace/status/2073009004452749610",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 3318,
+        "views": 912934
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2075827752184230072",
+      "handle": "gkxspace",
+      "date": "2026-07-11",
+      "url": "https://x.com/gkxspace/status/2075827752184230072",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 986,
+        "views": 142819
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2078454884861374485",
+      "handle": "gkxspace",
+      "date": "2026-07-18",
+      "url": "https://x.com/gkxspace/status/2078454884861374485",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 888,
+        "views": 108775
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2079539583134363680",
+      "handle": "gkxspace",
+      "date": "2026-07-21",
+      "url": "https://x.com/gkxspace/status/2079539583134363680",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 213,
+        "views": 144555
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2080626355146768476",
+      "handle": "gkxspace",
+      "date": "2026-07-24",
+      "url": "https://x.com/gkxspace/status/2080626355146768476",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 137,
+        "views": 22999
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2083130719111401517",
+      "handle": "gkxspace",
+      "date": "2026-07-31",
+      "url": "https://x.com/gkxspace/status/2083130719111401517",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 52,
+        "views": 21870
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2083560886623772967",
+      "handle": "gkxspace",
+      "date": "2026-08-01",
+      "url": "https://x.com/gkxspace/status/2083560886623772967",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 110,
+        "views": 32867
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2084224010653761889",
+      "handle": "gkxspace",
+      "date": "2026-08-03",
+      "url": "https://x.com/gkxspace/status/2084224010653761889",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 69,
+        "views": 34026
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2084610539653886394",
+      "handle": "gkxspace",
+      "date": "2026-08-04",
+      "url": "https://x.com/gkxspace/status/2084610539653886394",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 25,
+        "views": 13222
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2084949023979426292",
+      "handle": "gkxspace",
+      "date": "2026-08-05",
+      "url": "https://x.com/gkxspace/status/2084949023979426292",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 1801,
+        "views": 345680
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2085699733599994168",
+      "handle": "gkxspace",
+      "date": "2026-08-07",
+      "url": "https://x.com/gkxspace/status/2085699733599994168",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 350,
+        "views": 77791
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2087745161564492144",
+      "handle": "gkxspace",
+      "date": "2026-08-13",
+      "url": "https://x.com/gkxspace/status/2087745161564492144",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 3838,
+        "views": 471277
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2093293961725280370",
+      "handle": "gkxspace",
+      "date": "2026-08-28",
+      "url": "https://x.com/gkxspace/status/2093293961725280370",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 170,
+        "views": 50102
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2096572868507177381",
+      "handle": "gkxspace",
+      "date": "2026-09-06",
+      "url": "https://x.com/gkxspace/status/2096572868507177381",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 518,
+        "views": 121016
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2096901685087977736",
+      "handle": "gkxspace",
+      "date": "2026-09-07",
+      "url": "https://x.com/gkxspace/status/2096901685087977736",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 25,
+        "views": 11489
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2096905555491123417",
+      "handle": "gkxspace",
+      "date": "2026-09-07",
+      "url": "https://x.com/gkxspace/status/2096905555491123417",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 351,
+        "views": 34439
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2097075512942407728",
+      "handle": "gkxspace",
+      "date": "2026-09-07",
+      "url": "https://x.com/gkxspace/status/2097075512942407728",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 255,
+        "views": 67427
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2097455439365714125",
+      "handle": "gkxspace",
+      "date": "2026-09-08",
+      "url": "https://x.com/gkxspace/status/2097455439365714125",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 91,
+        "views": 13754
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2097908789341221342",
+      "handle": "gkxspace",
+      "date": "2026-09-10",
+      "url": "https://x.com/gkxspace/status/2097908789341221342",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 24,
+        "views": 9571
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    },
+    {
+      "id": "2097989784379785419",
+      "handle": "gkxspace",
+      "date": "2026-09-10",
+      "url": "https://x.com/gkxspace/status/2097989784379785419",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 664,
+        "views": 106051
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai"
+    }
+  ],
+  "curated": [
+    {
+      "id": "2034141325679874548",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-18",
+      "url": "https://x.com/Astronaut_1216/status/2034141325679874548",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 11,
+        "views": 3100
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "这篇文章从心理学和脑科学的视角来进行AI应用",
+      "mechanism": "普通推荐对照",
+      "analysis": "起句先报内容类别，后面才出现替代与压榨的张力；可对比冲突前置。",
+      "caveat": "后文冲突不能冒充原帖第一句话。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2036645846813737233",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-25",
+      "url": "https://x.com/Astronaut_1216/status/2036645846813737233",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 28,
+        "views": 3589
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "啥也没开始准备就做知识库，这辈子算是倒了大霉",
+      "mechanism": "替人发火",
+      "analysis": "用夸张倒霉感把准备顺序的问题写成真实会踩的坑。",
+      "caveat": "夸张的情绪判断不等于真实灾难。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2036815471937310803",
+      "handle": "Astronaut_1216",
+      "date": "2026-03-25",
+      "url": "https://x.com/Astronaut_1216/status/2036815471937310803",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 10,
+        "views": 3615
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "字越少，事儿越大",
+      "mechanism": "悬念",
+      "analysis": "短句先给事件分量，靠后续具体事项和附件解释。",
+      "caveat": "脱离后文是空悬念，不建议单独套用。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2040113933583896757",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-03",
+      "url": "https://x.com/Astronaut_1216/status/2040113933583896757",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 80,
+        "views": 67996
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "我靠，这是什么啊？？？",
+      "mechanism": "现场惊讶",
+      "analysis": "先有没反应过来的口语，再用重复词表达资源充裕的体感。",
+      "caveat": "需第二句或画面给出对象。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2041052628692484276",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-06",
+      "url": "https://x.com/Astronaut_1216/status/2041052628692484276",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 18,
+        "views": 1526
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "也算是过上我上学时候想要的生活了",
+      "mechanism": "愿望兑现",
+      "analysis": "过去愿望与现在生活对照，承认代价后仍表达开心。",
+      "caveat": "低声量也有明确情绪，可作同账号对照。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2049686171563774170",
+      "handle": "Astronaut_1216",
+      "date": "2026-04-30",
+      "url": "https://x.com/Astronaut_1216/status/2049686171563774170",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 1,
+        "views": 1388
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "我好奇现在你们做内容还在一天用五个小时写口播稿",
+      "mechanism": "挑战旧做法",
+      "analysis": "点名创作者正在花时间的动作，反问引出替代方法。",
+      "caveat": "5 小时是原帖设问里的数，不是普遍行业事实。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2052938079808508031",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-09",
+      "url": "https://x.com/Astronaut_1216/status/2052938079808508031",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 13,
+        "views": 11510
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "我去？",
+      "mechanism": "认知落差",
+      "analysis": "短促停顿接对变现方式的追问，表现刚发现另一套玩法。",
+      "caveat": "只有起句不足，必须接揭示对象。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2054910493148483738",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-14",
+      "url": "https://x.com/Astronaut_1216/status/2054910493148483738",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 144,
+        "views": 11442
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "有人说不信，那我讲一下AI 辅助内容创作 SOP",
+      "mechanism": "质疑转演示",
+      "analysis": "把他人质疑当作展示流程的触发，下一步自然进入证据与步骤。",
+      "caveat": "不要为套模板虚构有人质疑。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2054927370998661471",
+      "handle": "Astronaut_1216",
+      "date": "2026-05-14",
+      "url": "https://x.com/Astronaut_1216/status/2054927370998661471",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 26,
+        "views": 74796
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "诶呦我去，我受不了了",
+      "mechanism": "当场崩溃",
+      "analysis": "口语叠加具体文件损失，读者立刻知道为什么破防。",
+      "caveat": "事故是作者陈述，不能转成用户的亲历。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2066750025300943169",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-16",
+      "url": "https://x.com/Astronaut_1216/status/2066750025300943169",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 30,
+        "views": 11009
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "阿杭在赚钱这个账号冷启动到1000粉丝",
+      "mechanism": "投入回报",
+      "analysis": "具体投入、账号阶段与回报交代清楚，使变现复盘可追问。",
+      "caveat": "自报营收与 ROI，不是经审计结果。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2067853560423858436",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-19",
+      "url": "https://x.com/Astronaut_1216/status/2067853560423858436",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 11,
+        "views": 7566
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "听很多自媒体博主说GLM5.2已经全方位超过",
+      "mechanism": "质疑宣传",
+      "analysis": "先复述圈内主张，再追问比较依据，语气来自不服气。",
+      "caveat": "模型比较结论未独立核验。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2069114201981993092",
+      "handle": "Astronaut_1216",
+      "date": "2026-06-22",
+      "url": "https://x.com/Astronaut_1216/status/2069114201981993092",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 26,
+        "views": 3046
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "做一人公司也有三个月了",
+      "mechanism": "经历浓缩",
+      "analysis": "先给经历长度，再将过程文档变为一组可分享的发现。",
+      "caveat": "不是每条高价值分享都需要惊叹词。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2073784668676149593",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-05",
+      "url": "https://x.com/Astronaut_1216/status/2073784668676149593",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00",
+      "excerpt": "我真的是，做了半年的博主，才发现",
+      "mechanism": "迟到领悟",
+      "analysis": "时间投入与后知后觉相撞，后文落到交付问题，使自我反省具体。",
+      "caveat": "只有 6551 文本，互动不可用。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2073807371294433534",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-05",
+      "url": "https://x.com/Astronaut_1216/status/2073807371294433534",
+      "text_available": true,
+      "sources": [
+        "X browser Top search",
+        "6551 API"
+      ],
+      "metrics": {
+        "likes": 53,
+        "views": 20170
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "我靠啊！deepseek真的是最好用的AI",
+      "mechanism": "直接偏爱",
+      "analysis": "立场先行，后文用成本和中文表现说明喜欢什么。",
+      "caveat": "个人评价，不是通用排名。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2076560730074001438",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-13",
+      "url": "https://x.com/Astronaut_1216/status/2076560730074001438",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00",
+      "excerpt": "卧槽了，今天直播的时候才知道",
+      "mechanism": "现场信息差",
+      "analysis": "在具体交流现场发现常识并不共享，随后解释方法。",
+      "caveat": "直播经历属于原作者。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2076868980707352704",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-14",
+      "url": "https://x.com/Astronaut_1216/status/2076868980707352704",
+      "text_available": true,
+      "sources": [
+        "X browser Top search",
+        "6551 API"
+      ],
+      "metrics": {
+        "likes": 5,
+        "views": 7574
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "麻了，我一个8分钟的视频怎么剪了一个多小时啊",
+      "mechanism": "投入失衡",
+      "analysis": "成片长度与耗时并列，读者不用解释就能理解烦躁。",
+      "caveat": "两个数均来自作者自己的经历。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2077669630030610556",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-16",
+      "url": "https://x.com/Astronaut_1216/status/2077669630030610556",
+      "text_available": true,
+      "sources": [
+        "X browser Top search",
+        "6551 API"
+      ],
+      "metrics": {
+        "likes": 10,
+        "views": 2797
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "感觉人生完蛋了，被我妈刷到抖音了",
+      "mechanism": "小事大情绪",
+      "analysis": "把家人刷到账号的社死感放大，具体关系让夸张成立。",
+      "caveat": "个人经历不可移植。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2077750706304405784",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-16",
+      "url": "https://x.com/Astronaut_1216/status/2077750706304405784",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00",
+      "excerpt": "这chatcut真的是神来的？",
+      "mechanism": "反讽崩溃",
+      "analysis": "表面神化与后续耗时抱怨相反，问号承担反讽。",
+      "caveat": "不能把反讽当作正面推荐；只有 6551 文本。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2079775441343422809",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-22",
+      "url": "https://x.com/Astronaut_1216/status/2079775441343422809",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00",
+      "excerpt": "我发现很多人做产品、搞 vibe coding",
+      "mechanism": "点破盲区",
+      "analysis": "读者正在花力气的事，已有现成实现；把资源分享变成重复劳动的提醒。",
+      "caveat": "按正文限定解决范围，不暗示所有产品已有现成答案。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2081333047387902174",
+      "handle": "Astronaut_1216",
+      "date": "2026-07-26",
+      "url": "https://x.com/Astronaut_1216/status/2081333047387902174",
+      "text_available": true,
+      "sources": [
+        "6551 API"
+      ],
+      "metrics": null,
+      "metrics_note": "Batch returned all zeros; treated as unavailable.",
+      "retrieved_at": "2026-09-10T16:56:53.535084+00:00",
+      "excerpt": "这两天有个开心的事儿",
+      "mechanism": "情绪反转",
+      "analysis": "喜悦接通常被视作坏消息的退款，正文必须说明这件事带来的新认识。",
+      "caveat": "只有 6551 文本，互动全零按不可用处理。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2085741126183780599",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-07",
+      "url": "https://x.com/Astronaut_1216/status/2085741126183780599",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 48,
+        "views": 13699
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "闲鱼真是开生意脑的地方，越刷越觉得来钱路子宽",
+      "mechanism": "机会兴奋",
+      "analysis": "具体平台承接新看到的生意可能，口语评价后给发现。",
+      "caveat": "机会不等于承诺收入。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2086337933259551014",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-09",
+      "url": "https://x.com/Astronaut_1216/status/2086337933259551014",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 45,
+        "views": 18533
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "不会只有我今天才知道",
+      "mechanism": "迟到发现",
+      "analysis": "承认自己刚知道，给读者一个一起补知识的台阶。",
+      "caveat": "原帖对技术现象的归因未核验，只学表达结构。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2089576598983033293",
+      "handle": "Astronaut_1216",
+      "date": "2026-08-18",
+      "url": "https://x.com/Astronaut_1216/status/2089576598983033293",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 84,
+        "views": 10084
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "我回头看了一下，抖音其实没那么玄",
+      "mechanism": "认知简化",
+      "analysis": "回看经历后撤掉神秘感，将复杂问题收束到一个可行动变量。",
+      "caveat": "后文要承认影响结果的其他因素。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2096077463784956236",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-05",
+      "url": "https://x.com/Astronaut_1216/status/2096077463784956236",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 34,
+        "views": 18445
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "2w粉了！！！！！",
+      "mechanism": "庆祝复盘",
+      "analysis": "成绩加感叹号构成庆祝，紧接过程复盘把好消息变成读者价值。",
+      "caveat": "是作者的粉丝里程碑，不是用户的成绩。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2097166536012071055",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-08",
+      "url": "https://x.com/Astronaut_1216/status/2097166536012071055",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 177,
+        "views": 47838
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "我的妈呀兄弟们",
+      "mechanism": "回报惊喜",
+      "analysis": "口头招呼接回报预期，再以少投入的平台出现反馈解释惊讶。",
+      "caveat": "当月收入为原帖预测，不能写成已实现收入。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2097625565025181977",
+      "handle": "Astronaut_1216",
+      "date": "2026-09-09",
+      "url": "https://x.com/Astronaut_1216/status/2097625565025181977",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 173,
+        "views": 22823
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "让我来猛猛揭露",
+      "mechanism": "揭秘利益",
+      "analysis": "主动揭示的姿态搭配具体业务对象，承诺后面有可用方法。",
+      "caveat": "百倍属原帖表述，不转抄为实测数据。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2038276251870187639",
+      "handle": "gkxspace",
+      "date": "2026-03-29",
+      "url": "https://x.com/gkxspace/status/2038276251870187639",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 198,
+        "views": 79340
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "大佬这篇内容太干了，ClaudeCode 用户",
+      "mechanism": "反转推荐",
+      "analysis": "先推荐某工具教程，后面却转向另一工具，阅读后的决定与预期相反。",
+      "caveat": "推荐对象与最终选择的反差需要正文支持。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2038485109775470910",
+      "handle": "gkxspace",
+      "date": "2026-03-30",
+      "url": "https://x.com/gkxspace/status/2038485109775470910",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 62,
+        "views": 27371
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "很多漫剧公司为了使用 Seedance2.0",
+      "mechanism": "怪现象",
+      "analysis": "从一个反常岗位切入，把抽象供需问题变成能想象的工作画面。",
+      "caveat": "开头本身未大喊大叫，可作低声量对照。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2038791588000739394",
+      "handle": "gkxspace",
+      "date": "2026-03-31",
+      "url": "https://x.com/gkxspace/status/2038791588000739394",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 48,
+        "views": 14140
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "OpenAI 牛逼啊，格局太大了。",
+      "mechanism": "解脱",
+      "analysis": "感叹后立即交代工具选择冲突被解除，爽感有对象。",
+      "caveat": "产品能力是作者当时的说法。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2040780970966601822",
+      "handle": "gkxspace",
+      "date": "2026-04-05",
+      "url": "https://x.com/gkxspace/status/2040780970966601822",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 85,
+        "views": 33655
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "Typeless 90% 体验平替",
+      "mechanism": "低成本爽感",
+      "analysis": "把体验、花费和长期使用放在一起，降低读者尝试门槛。",
+      "caveat": "数字只属原作者陈述，不可移植成用户经历。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2042211862557688318",
+      "handle": "gkxspace",
+      "date": "2026-04-09",
+      "url": "https://x.com/gkxspace/status/2042211862557688318",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 358,
+        "views": 64804
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "今年 GEO 太火了",
+      "mechanism": "热潮拆穿",
+      "analysis": "从市场热度转到实际接触服务商后的不满，形成经验与宣传的冲突。",
+      "caveat": "可能有商业推荐背景，不能视为独立评测。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2047494444857913663",
+      "handle": "gkxspace",
+      "date": "2026-04-24",
+      "url": "https://x.com/gkxspace/status/2047494444857913663",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 1374,
+        "views": 276084
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "歸藏大佬的 PPT SKill 终于来了",
+      "mechanism": "期待兑现",
+      "analysis": "终于回应读者已有的期待，再以审美评价和具体成品承接。",
+      "caveat": "作者声誉、素材和分发共同影响互动。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2051649323260076248",
+      "handle": "gkxspace",
+      "date": "2026-05-05",
+      "url": "https://x.com/gkxspace/status/2051649323260076248",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 2738,
+        "views": 512345
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "涨知识了，这几个网站是真牛逼",
+      "mechanism": "读者解脱",
+      "analysis": "口语赞叹接持续使用利益，把网站名单转成缓解信息负担的方案。",
+      "caveat": "不能据此承诺读者绝不会焦虑。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2054079878748688573",
+      "handle": "gkxspace",
+      "date": "2026-05-12",
+      "url": "https://x.com/gkxspace/status/2054079878748688573",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 847,
+        "views": 216512
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "这绝对是 Codex 最牛掰的实战教程",
+      "mechanism": "强推荐",
+      "analysis": "明确工具、教程、覆盖范围，先给选择结论，再让正文证明。",
+      "caveat": "最高级评价是观点，热度不是质量认证。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2055993627629781080",
+      "handle": "gkxspace",
+      "date": "2026-05-17",
+      "url": "https://x.com/gkxspace/status/2055993627629781080",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 728,
+        "views": 164138
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "之前为了抓单个公众号文章都很费劲",
+      "mechanism": "痛苦解除",
+      "analysis": "过去单篇都困难，眼前却能成批完成；同一任务前后规模反差很清楚。",
+      "caveat": "只提炼结构，不承诺工具当前仍有该能力。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2058550790734631369",
+      "handle": "gkxspace",
+      "date": "2026-05-24",
+      "url": "https://x.com/gkxspace/status/2058550790734631369",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 78,
+        "views": 13951
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "我目前试了各种链接，国内、海外平台",
+      "mechanism": "亲测扩张",
+      "analysis": "连续试用的边界不断扩大，口语停顿表达越试越惊讶。",
+      "caveat": "保留试过的范围，不把样本测试扩大为所有链接。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2063978203639652377",
+      "handle": "gkxspace",
+      "date": "2026-06-08",
+      "url": "https://x.com/gkxspace/status/2063978203639652377",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 820,
+        "views": 269904
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "05年大三学牲，上个月利润到了 10w+",
+      "mechanism": "身份反差",
+      "analysis": "学生身份和收入结果相撞，随后坦承心虚，成就后留出人的犹疑。",
+      "caveat": "收入未独立核验，不作为用户的可用成绩。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2068328803508629893",
+      "handle": "gkxspace",
+      "date": "2026-06-20",
+      "url": "https://x.com/gkxspace/status/2068328803508629893",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 761,
+        "views": 96340
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "卧槽，谁想到的这个用法",
+      "mechanism": "意外组合",
+      "analysis": "先惊叹，再展示两个工具串起来的玩法，意外来自组合方式。",
+      "caveat": "原帖另有表情，正文 DOM 摘录未包含图片表情。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2069264066992918732",
+      "handle": "gkxspace",
+      "date": "2026-06-23",
+      "url": "https://x.com/gkxspace/status/2069264066992918732",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 33,
+        "views": 28693
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "我靠，终于等到了",
+      "mechanism": "期待兑现",
+      "analysis": "先释放等待已久的兴奋，再补原先成本障碍与新方案。",
+      "caveat": "推广语境，只研究表达。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2073009004452749610",
+      "handle": "gkxspace",
+      "date": "2026-07-03",
+      "url": "https://x.com/gkxspace/status/2073009004452749610",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 3318,
+        "views": 912934
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "国人是真他妈牛逼，一个网站 VS 所有社交平台",
+      "mechanism": "小对大",
+      "analysis": "单一入口与大量平台的规模差形成第一眼冲击，脏话是强调而非机制本身。",
+      "caveat": "作者宣称的覆盖范围未独立验证。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2078454884861374485",
+      "handle": "gkxspace",
+      "date": "2026-07-18",
+      "url": "https://x.com/gkxspace/status/2078454884861374485",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 888,
+        "views": 108775
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "离谱！打死我都想不到",
+      "mechanism": "不敢信公开",
+      "analysis": "先表示不可能，再解释被公开的是制作过程资产，引出捡到宝的感觉。",
+      "caveat": "与 2084949023979426292 属近似表达，合并看待。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2080626355146768476",
+      "handle": "gkxspace",
+      "date": "2026-07-24",
+      "url": "https://x.com/gkxspace/status/2080626355146768476",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 137,
+        "views": 22999
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "太离谱了，我真的就一句话",
+      "mechanism": "小投入大结果",
+      "analysis": "极小输入接具体视频产物，再外推到使用场景，行动门槛被压低。",
+      "caveat": "不沿用未经验证的销售可行性。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2084949023979426292",
+      "handle": "gkxspace",
+      "date": "2026-08-05",
+      "url": "https://x.com/gkxspace/status/2084949023979426292",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 1801,
+        "views": 345680
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "爽了！打死我都不敢信",
+      "mechanism": "不敢信公开",
+      "analysis": "把难得公开的制作资料写成可拿走的资源，先爽再解释价值。",
+      "caveat": "与 2078454884861374485 同一机制，不能当作两个独立发现。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2087745161564492144",
+      "handle": "gkxspace",
+      "date": "2026-08-13",
+      "url": "https://x.com/gkxspace/status/2087745161564492144",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 3838,
+        "views": 471277
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "卧槽！谁不想在自己婚礼上搞这一出啊？？？",
+      "mechanism": "场景投射",
+      "analysis": "让读者先想象自己婚礼中的效果，产品功能退到后面。",
+      "caveat": "场景欲望比单纯模型名更有代入感。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2093293961725280370",
+      "handle": "gkxspace",
+      "date": "2026-08-28",
+      "url": "https://x.com/gkxspace/status/2093293961725280370",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 170,
+        "views": 50102
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "谷歌现在发新模型，是一点关注度都没有了吗",
+      "mechanism": "替价值不平",
+      "analysis": "以关注不足的反问重新分配注意力，随后讲被忽略的价值。",
+      "caveat": "讨论热度判断属于作者印象。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2096572868507177381",
+      "handle": "gkxspace",
+      "date": "2026-09-06",
+      "url": "https://x.com/gkxspace/status/2096572868507177381",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 518,
+        "views": 121016
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "兄弟们，遇到这种项目别犹豫",
+      "mechanism": "抢先行动",
+      "analysis": "称呼拉近距离，紧跟一个低门槛动作和可能错失的理由。",
+      "caveat": "本次不验证消失风险，不把可能下架当成通用编造的紧迫感。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2097455439365714125",
+      "handle": "gkxspace",
+      "date": "2026-09-08",
+      "url": "https://x.com/gkxspace/status/2097455439365714125",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 91,
+        "views": 13754
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "蛙趣，Images 2.5 这个手绘涂鸦生图",
+      "mechanism": "解脱",
+      "analysis": "夸张惊叹后，落到不用写冗长描述、能直接表达构图的便利。",
+      "caveat": "模型规格不是本研究验证对象。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    },
+    {
+      "id": "2097989784379785419",
+      "handle": "gkxspace",
+      "date": "2026-09-10",
+      "url": "https://x.com/gkxspace/status/2097989784379785419",
+      "text_available": true,
+      "sources": [
+        "X browser Top search"
+      ],
+      "metrics": {
+        "likes": 664,
+        "views": 106051
+      },
+      "metrics_observed_on": "2026-09-11",
+      "metrics_timezone": "Asia/Shanghai",
+      "excerpt": "wok，微信被彻底打通了",
+      "mechanism": "发现太晚",
+      "analysis": "把实用整合写成迟来的发现，惊喜和错过感叠加。",
+      "caveat": "功能与可用性需要新一轮验证才可作为当前推荐。",
+      "excerpt_note": "Short excerpt from the start, not the entire opener; original punctuation preserved."
+    }
+  ]
+}
