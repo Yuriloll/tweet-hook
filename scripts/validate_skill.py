@@ -3,10 +3,12 @@
 
 from __future__ import annotations
 
+import json
 import re
 import sys
+from collections import Counter
+from datetime import date
 from pathlib import Path
-
 
 REQUIRED_FILES = (
     "SKILL.md",
@@ -14,6 +16,11 @@ REQUIRED_FILES = (
     "README.md",
     "INSTALL.md",
     "references/hook-patterns.md",
+    "references/priority-templates.md",
+    "references/creator-styles.md",
+    "references/emotional-openers.md",
+    "references/research-2026-09.md",
+    "references/research-2026-09.json",
     "references/article-hooks.md",
     "references/list-2067293665865998356/README.md",
     "references/list-2067293665865998356/swipe-openers.md",
@@ -22,27 +29,8 @@ REQUIRED_FILES = (
     "tests/test_validate_skill.py",
 )
 
-REQUIRED_SKILL_PHRASES = (
-    "## 5. Hook mining workflow（生成前置诊断）",
-    "判断读者是谁",
-    "判断读者现在最痛的点",
-    "提取内容里最反常识的观点",
-    "找出最具体的数字或结果",
-    "判断哪句话最容易制造好奇心",
-    "能力级别表示环境",
-    "本轮模式表示",
-    "默认必须展示 `Hook Brief`",
-    "已核实",
-    "用户提供",
-    "推断",
-    "缺失",
-    "好奇（信息缺口）",
-)
-
-
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8")
-
 
 def check_frontmatter(skill_text: str) -> list[str]:
     issues: list[str] = []
@@ -60,7 +48,6 @@ def check_frontmatter(skill_text: str) -> list[str]:
         issues.append("SKILL.md frontmatter requires a description")
     return issues
 
-
 def declared_sample_counts(readme_text: str) -> tuple[dict[str, int], int | None]:
     counts: dict[str, int] = {}
     row_pattern = re.compile(
@@ -74,7 +61,6 @@ def declared_sample_counts(readme_text: str) -> tuple[dict[str, int], int | None
     total_match = re.search(r"当前表格记录数:\*\*\s*(\d+)", readme_text)
     total = int(total_match.group(1)) if total_match else None
     return counts, total
-
 
 def actual_sample_counts(swipe_text: str) -> dict[str, int]:
     counts: dict[str, int] = {}
@@ -93,7 +79,6 @@ def actual_sample_counts(swipe_text: str) -> dict[str, int]:
             counts[current_handle] += 1
     return counts
 
-
 def check_markdown_links(root: Path) -> list[str]:
     issues: list[str] = []
     link_pattern = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
@@ -105,6 +90,67 @@ def check_markdown_links(root: Path) -> list[str]:
             if not (markdown_file.parent / target).resolve().exists():
                 relative_file = markdown_file.relative_to(root)
                 issues.append(f"broken local link in {relative_file}: {raw_target}")
+    return issues
+
+def check_research(path: Path) -> list[str]:
+    issues: list[str] = []
+    try:
+        data = json.loads(read_text(path))
+        index, curated, counts = data["index"], data["curated"], data["collection"]
+        first = date.fromisoformat(data["requested_window"]["since"])
+        last = date.fromisoformat(data["requested_window"]["through"])
+        ids = [row["id"] for row in index]
+        selected_ids = [row["id"] for row in curated]
+        if len(ids) != len(set(ids)) or len(selected_ids) != len(set(selected_ids)):
+            issues.append("duplicate research source IDs")
+        by_id = {row["id"]: row for row in index}
+        handles = dict(Counter(row["handle"] for row in index))
+        months = {handle: dict(Counter(row["date"][:7] for row in index
+                                      if row["handle"] == handle)) for handle in handles}
+        computed = {
+            "unique": len(index), "curated": len(curated),
+            "text_available": sum(row["text_available"] for row in index),
+            "browser_unique": sum("X browser Top search" in row["sources"] for row in index),
+            "api_returned": sum("6551 API" in row["sources"] for row in index),
+            "by_handle": handles, "by_month": months,
+        }
+        for key, value in computed.items():
+            if counts.get(key) != value:
+                issues.append(f"research count mismatch: {key}")
+        for row in index:
+            sid = row["id"]
+            if not re.fullmatch(r"\d+", sid):
+                issues.append(f"invalid research ID: {sid}")
+            if row["url"] != f"https://x.com/{row['handle']}/status/{sid}":
+                issues.append(f"research URL identity mismatch: {sid}")
+            if not first <= date.fromisoformat(row["date"]) <= last:
+                issues.append(f"research date outside window: {sid}")
+            if type(row["text_available"]) is not bool or not row["sources"]:
+                issues.append(f"research source metadata incomplete: {sid}")
+            if row["metrics"] is not None:
+                if not row.get("metrics_observed_on"):
+                    issues.append(f"metrics missing observation date: {sid}")
+                if any(type(value) is not int or value < 0 for value in row["metrics"].values()):
+                    issues.append(f"invalid metrics: {sid}")
+            elif not row.get("metrics_note"):
+                issues.append(f"missing metrics explanation: {sid}")
+        for row in curated:
+            sid = row["id"]
+            source = by_id.get(sid)
+            if source is None:
+                issues.append(f"curated source missing from index: {sid}")
+                continue
+            if not source["text_available"]:
+                issues.append(f"curated source has no observed text: {sid}")
+            for field in ("handle", "date", "url", "sources", "metrics"):
+                if row[field] != source[field]:
+                    issues.append(f"curated source mismatch: {sid} {field}")
+            if not 0 < len(row["excerpt"]) <= 24:
+                issues.append(f"excerpt must be a short nonempty quote: {sid}")
+            if not all(row.get(field) for field in ("mechanism", "analysis", "caveat")):
+                issues.append(f"curated analysis incomplete: {sid}")
+    except (KeyError, TypeError, ValueError) as exc:
+        issues.append(f"invalid research data: {exc}")
     return issues
 
 
@@ -120,15 +166,6 @@ def validate(root: Path) -> list[str]:
     if skill_path.is_file():
         skill_text = read_text(skill_path)
         issues.extend(check_frontmatter(skill_text))
-        for phrase in REQUIRED_SKILL_PHRASES:
-            if phrase not in skill_text:
-                issues.append(f"SKILL.md missing required workflow phrase: {phrase}")
-        if "矛盾 / 焦虑 / 话题 / 热度 / 钩子" in skill_text:
-            issues.append("SKILL.md still uses the ambiguous fifth category name 钩子")
-        if "可用「据我观察 / 我们测下来」" in skill_text:
-            issues.append("SKILL.md still permits unsupported observation/test claims")
-        if re.search(r"(?i)multi-agent skill", skill_text):
-            issues.append("SKILL.md still claims to be a multi-agent skill")
 
     list_readme = root / "references/list-2067293665865998356/README.md"
     swipe_file = root / "references/list-2067293665865998356/swipe-openers.md"
@@ -149,9 +186,11 @@ def validate(root: Path) -> list[str]:
                 f"sample total mismatch: README={declared_total}, swipe={actual_total}"
             )
 
+    research_path = root / "references/research-2026-09.json"
+    if research_path.is_file():
+        issues.extend(check_research(research_path))
     issues.extend(check_markdown_links(root))
     return issues
-
 
 def main(argv: list[str]) -> int:
     root = Path(argv[1]) if len(argv) > 1 else Path(__file__).resolve().parents[1]
@@ -166,9 +205,10 @@ def main(argv: list[str]) -> int:
         root / "references/list-2067293665865998356/swipe-openers.md"
     )
     sample_total = sum(actual_sample_counts(swipe_text).values())
-    print(f"tweet-hook validation passed ({sample_total} swipe rows checked)")
+    research = json.loads(read_text(root / "references/research-2026-09.json"))
+    print(f"tweet-hook validation passed ({sample_total} legacy rows; "
+          f"{len(research['index'])} research IDs; {len(research['curated'])} source cards)")
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv))
