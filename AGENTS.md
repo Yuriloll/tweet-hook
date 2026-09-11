@@ -1,14 +1,7 @@
-# tweet-hook (for agent loaders)
+# tweet-hook loader
 
-When the user asks for **tweet openers / 推文开头 / 爆款钩子 / viral X hooks**:
+For tweet hooks, 推文开头、强情绪开头、开头改写 or creator-opening research, read [SKILL.md](SKILL.md).
 
-1. Read and follow `./SKILL.md` in this directory (or the path where this skill is installed).
-2. Prefer `references/hook-patterns.md` and `references/**/swipe-openers.md`.
-3. State both capability level **L1 / L2 / L3** and the mode actually used. A capable L2/L3 environment remains L2/L3 when the current task uses only user material; report that no external search was used.
-4. Before drafting, complete the Hook Brief: reader · current pain · counterintuitive point · concrete number/result · strongest curiosity line · payoff sentence.
-5. Mark each judgment as verified, user-provided, inferred, or missing. Missing evidence stays missing.
-6. Output paste-ready openers with type · risk · use-case. Show the Hook Brief by default; omit it only when the user explicitly requests final copy or openers only.
+For writing, calibrate to the user's five original examples in [priority templates](references/priority-templates.md). Default to high emotional intensity, bold judgments, dramatic contrasts and conversational momentum. The user welcomes creative expansion; present invented scenarios as creative drafts.
 
-This is a cross-agent portable skill. It does not require multi-agent delegation.
-
-Skill name: **`tweet-hook`**
+Give six openers by default, strongest first. Keep diagnosis and explanation internal unless requested. This portable package does not require delegation.

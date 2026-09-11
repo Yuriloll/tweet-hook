@@ -1,114 +1,38 @@
-# Install tweet-hook on any AI agent
+# 安装 tweet-hook 强烈情绪版
 
-This skill is **tool-agnostic**. Core value lives in:
+仓库：[Yuriloll/tweet-hook](https://github.com/Yuriloll/tweet-hook)。
 
-- `SKILL.md` — procedures
-- `references/` — patterns + swipe library
-
-## Universal install
+本版本位于 `strong-emotion` 分支。使用以下命令下载：
 
 ```bash
-git clone https://github.com/Yuriloll/tweet-hook.git
-# then copy into the agent path you use (examples below)
+git clone --branch strong-emotion --single-branch https://github.com/Yuriloll/tweet-hook.git
 ```
 
-Or download ZIP from GitHub → extract → copy folder.
+或下载 [strong-emotion 分支 ZIP](https://github.com/Yuriloll/tweet-hook/archive/refs/heads/strong-emotion.zip) 并解压。skill 根目录应直接包含 SKILL.md、references、scripts 和 tests，不要多嵌套一层同名目录。
 
----
+## 当前 Windows Codex 环境
 
-## Grok Build
+本机使用的安装布局为 `用户目录/.codex/skills/tweet-hook`。更新时先备份旧目录，再把整个新版包同步进去。下一次使用时让 Codex 读取更新后的 SKILL.md；若界面仍列旧描述，重启或开启新任务刷新。
 
-**User-wide:**
+也可让系统提供的 skill-installer 从 `Yuriloll/tweet-hook` 的 `strong-emotion` 分支安装仓库根目录。已有安装时先检查再更新，不要反复创建同名副本。
 
-```bash
-mkdir -p ~/.grok/skills/tweet-hook
-cp -R tweet-hook/* ~/.grok/skills/tweet-hook/
-```
+## 其他 agent
 
-**Project:**
-
-```bash
-mkdir -p .grok/skills/tweet-hook
-cp -R tweet-hook/* .grok/skills/tweet-hook/
-```
-
-Invoke: `/tweet-hook` or natural language（推文开头 / 爆款钩子）.
-
----
-
-## Claude Code
-
-```bash
-mkdir -p .claude/skills/tweet-hook
-cp -R tweet-hook/* .claude/skills/tweet-hook/
-```
-
-Or user skills directory if you use one.  
-Invoke by skill name or: “Follow .claude/skills/tweet-hook/SKILL.md”.
-
----
-
-## OpenAI Codex (CLI / IDE)
-
-```bash
-mkdir -p .agents/skills/tweet-hook   # or your project skills path
-cp -R tweet-hook/* .agents/skills/tweet-hook/
-```
-
-Also works if you add to `AGENTS.md`:
-
-```markdown
-When writing tweet/X openers, follow ./path/to/tweet-hook/SKILL.md
-and use references/ under that skill.
-```
-
-In chat you can `@tweet-hook/SKILL.md` if the product supports file refs.
-
----
-
-## Cursor
-
-```bash
-mkdir -p .cursor/skills/tweet-hook
-cp -R tweet-hook/* .cursor/skills/tweet-hook/
-```
-
-Or Project Rules → point to `SKILL.md`.
-
----
-
-## GitHub Copilot Chat / other
-
-1. Keep this folder in the repo.  
-2. In the system or custom instruction:
+把目录放到该产品配置的 skill 加载路径，或直接让它读取：
 
 ```text
-For viral tweet openings, follow skills/tweet-hook/SKILL.md.
-Prefer references/hook-patterns.md and references/**/swipe-openers.md.
-If you cannot search X, use L1 offline mode only.
+请按 path/to/tweet-hook/SKILL.md 为下面的正文生成开头。
 ```
 
----
+各产品的自动发现目录以其当前配置为准；核心规则不依赖具体工具名。
 
-## Verify
+## 验证本地包
 
-Ask the agent:
-
-```text
-Read tweet-hook SKILL.md and say your capability level L1/L2/L3,
-complete the Hook Brief, then write 5 openers for: "AI 工作流接单"
-```
-
-Expected:
-
-- States L1/L2/L3 and separately states whether this run used live research, web research, user material, or the offline library
-- Identifies reader, current pain, counterintuitive point, number/result, strongest curiosity line, and payoff sentence
-- Marks unsupported fields as inferred or missing rather than filling them
-- Uses hook types  
-- Outputs paste-ready openers without inventing fake metrics  
-
-Validate the installed package from its root directory:
+在 skill 根目录运行：
 
 ```bash
-python3 scripts/validate_skill.py .
+python scripts/validate_skill.py .
+python -m unittest discover -s tests -v
 ```
+
+生成开头本身不需要 Python；这两条命令仅用于维护检查。
