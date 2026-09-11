@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import shutil
 import tempfile
 import unittest
@@ -17,6 +18,29 @@ SPEC.loader.exec_module(VALIDATOR)
 
 
 class ValidateSkillTests(unittest.TestCase):
+    def research_mutation(self, change):
+        with tempfile.TemporaryDirectory() as temporary_directory:
+            path = Path(temporary_directory) / "research.json"
+            data = json.loads((SKILL_ROOT / "references/research-2026-09.json").read_text("utf-8"))
+            change(data)
+            path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
+            return VALIDATOR.check_research(path)
+
+    def test_curated_source_must_exist(self):
+        issues = self.research_mutation(lambda data: data["curated"][0].update(id="999"))
+        self.assertIn("curated source missing from index: 999", issues)
+
+    def test_duplicate_ids_cannot_inflate_counts(self):
+        issues = self.research_mutation(lambda data: data["index"].append(data["index"][0]))
+        self.assertIn("duplicate research source IDs", issues)
+        self.assertIn("research count mismatch: unique", issues)
+
+    def test_metrics_cannot_change_between_index_and_card(self):
+        def change(data):
+            data["curated"][0]["metrics"] = {"likes": 999999, "views": 999999}
+        issues = self.research_mutation(change)
+        self.assertTrue(any("curated source mismatch:" in issue and "metrics" in issue for issue in issues))
+
     def test_current_package_passes(self) -> None:
         self.assertEqual([], VALIDATOR.validate(SKILL_ROOT))
 
